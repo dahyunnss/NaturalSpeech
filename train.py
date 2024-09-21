@@ -47,7 +47,7 @@ def main():
 
     n_gpus = torch.cuda.device_count()
     os.environ["MASTER_ADDR"] = "localhost"
-    os.environ["MASTER_PORT"] = "63331"
+    os.environ["MASTER_PORT"] = "63331" #Change
 
     hps = utils.get_hparams()
     
